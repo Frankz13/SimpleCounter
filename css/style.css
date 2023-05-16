@@ -1,0 +1,109 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15%;    
+    background-image: url('/img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+}
+
+h1{
+    font-size: 3em;
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  button {
+    font-size: 3em;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    
+  }
+
+  .buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  #increment {
+    background-color: blue;
+    color: white;
+  }
+  
+  #decrement {
+    background-color: red;
+    color: white;
+    
+  }
+
+  #reset {
+    background-color: green;
+    color: white;
+  }
+
+  #congratulation  {
+    visibility: hidden;
+
+  }
+
+  input{
+    
+    font-size: 2.5em;
+    width: 80%;
+    text-align: center;
+    
+
+        
+  }
+
+  .container {
+    margin: 20px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('/img/steel.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5%;
+  
+  }
+  
+  .container input {
+    margin-top: 1em;
+    width: 90%;
+    align-items: center;
+  }
+
+  @media (max-width: 768px) {
+
+    h1 {
+      font-size: 2em;
+      color: white
+    }
+
+    button, input {
+        font-size: 1.5em; 
+        
+    }
+
+    .container input {
+        width: 100%; 
+    }
+
+    .buttons {
+      flex-direction: row;
+      align-items: center;
+    }
+}
+  
+ 
+ 
+  
