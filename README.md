@@ -53,5 +53,5 @@ function reset_counter() {
 ```
 ## 🎉 Conclusioni
 
-Questo progetto è stato realizzato come prova delle competenze in JavaScript per Star2Impact.
+Questo progetto è stato realizzato come prova delle competenze in JavaScript per Start2Impact.
 
