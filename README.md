@@ -19,7 +19,7 @@ Puoi provare l'applicazione qui: [Link all'applicazione](https://Frankxyz13.pyth
 
 ## 🖼️ Screenshot
 
-![Screenshot dell'applicazione]()
+![Screenshot dell'applicazione](img/screenshoot.png)
 
 ## 💻 Codice di esempio
 
